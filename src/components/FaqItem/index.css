@@ -1,0 +1,30 @@
+.plus-button {
+  color: #cb8805;
+  background-color: transparent;
+}
+
+img {
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  button > img {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+
+@media (min-width:576px) and (max-width:768px) {
+  button > img {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    button > img {
+    height: 20px;
+    width: 20px;
+  }
+}
